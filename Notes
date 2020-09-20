@@ -1,0 +1,38 @@
+declare doctype - xhtml
+basic rules - element and attributes must be lowercase
+all elements must be closed
+attribute values must be in quotes(double or single)
+proper nesting is a must
+attribute - i.e. font color red
+
+3 types of doctype
+strict, transitional, and frameset
+transitional is what we use
+
+basic structure
+
+open html
+
+(<html>)
+  (<head>)
+    header items
+    <title> - title is required
+    <meta> - how the page is encoded and its language
+      - required meta data
+        - the language you are using
+        - how your page is encoded
+      - optional meta data
+        - keywords
+        - Page description
+    <style> - what css files you will be using
+    <script> - any scripts you will be using (i.e javascript)
+  (</head>)
+
+  (<body>)
+    body items
+     - content elements
+     - structure elements
+  (</body>)
+(</html)
+
+close html

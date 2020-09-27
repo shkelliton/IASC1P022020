@@ -36,3 +36,41 @@ open html
 (</html)
 
 close html
+
+CSS NOTES
+does not have to be separated like this, just style pref
+ruleName{
+  -modifierCodeOne;
+  -modifierCodeTwo;
+}
+example
+h1{font-size:2px;}
+-h1 = selector
+-font-size = property
+-2px = value
+font-size: 2px; =  a statement
+h1{font-size:2px;} = a rule
+
+Types of CSS classes
+any definition contained in {} in your style sheet is a classes
+1- modifying existing html elements (start with class to be modified, i.e. body or p)
+2 - Custom styled classes that are applied to html elements (starting with .)
+3 - Custom styled unique IDs that are applied to unique HTML element(s)(starting with #)
+- ID's are supposed to be unique and used once per Page
+
+Styling HTML elements
+Modify all existing html elements (start with class to be modified(body or p))
+We can modify and HTML structural or content element by just referencing it in our css
+blah blah
+
+Calling style definiti
+In order to use the custom styles we've generated in CSS we have to call the class or ID from HTML
+The attribute class and/or ID are added to our HTML
+<p class="myStyle"> Some styled text</p>
+<p id="unique"> Some different text</p>
+class is used to style items that  appear many times
+Id is used to style items that only appear once per page
+Class - ".blak"
+ID - "#blak"
+
+Class is a barcode, ID is a serial number

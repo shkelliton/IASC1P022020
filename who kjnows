@@ -1,0 +1,66 @@
+Required xHTML elements (doctype, html, head, title, body)-
+
+At least two links (one relative*, one absolute) -
+
+At least two lists (one ordered, one unordered) -
+
+At least two images (one relative, one absolute) -
+
+At least one in-page anchor -
+
+At least two headers (h1, h2, h3 or otherwise) -
+
+At least two paragraphs (<p></p>), each with tag styled text (strong, em) -
+
+
+
+
+CSS Exercise 3
+
+Create a new basic .HTML file that contains all required elements (see basicPage.html)
+Create a new empty .CSS file
+In your .HTML file:
+Create a <p> element with some text
+Create an absolute img element
+In your .CSS file
+Style the the <p>:
+Font arial
+All uppercase
+Style the img:
+Border 1px solid black
+Upload to GitHub
+
+
+CSS Exercise 2
+
+Create a new basic .HTML file that contains all required elements (see basicPage.html)
+Create a new empty .CSS file
+In your .HTML file:
+Create a <ul> with three <li> items
+In your .CSS file
+Style the the body:
+Background colour red
+Style the <ul>:
+Green
+Italic
+Style the <li>:
+Inline (should appear all on one line)
+Size 30px
+Upload to GitHub
+
+CSS Exercise 1
+Create a new basic .HTML file that contains all required elements (see basicPage.html)
+Create a new empty .CSS file
+In your .HTML file:
+Create a <h1> header element with some text
+assign it the id “firstHeader”
+Create two <p> elements with some text
+Assign them the class “greenText”
+In your .CSS file
+Style the id “firstHeader”:
+Red
+Bold
+Style the class “greenText”
+Green
+Italic
+Upload to GitHub

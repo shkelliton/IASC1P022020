@@ -74,3 +74,77 @@ Class - ".blak"
 ID - "#blak"
 
 Class is a barcode, ID is a serial number
+
+selectors
+items to style
+Do proper nesting, open and close tags appropriately
+heirarchy - if one element contains another, it is considered to be a parent of that items
+the item that is contained is the child element of the parent
+any elements contained in the child element are considered to be descendants of original parent
+
+nested selectors
+target styles
+- see slides
+-element.class selectors
+element.class{p.myStyle{etc}}
+
+general sibling selectors
+h1~p{color:red;}
+
+any children of h1 will be red
+immediate sibling selector
+p+p etc
+
+We can have multiple statements for each css rules
+if you ever have a duplicate kind of rule the final rule's style will win out
+
+Specificity
+Sometimes with lots of css rules you may have a situation where .... see slides
+other
+
+The concept that describes the order that CSS rules are executed is Specificity
+Basic rules
+Order of Specificity
+Inline>ID>Class>Element
+Whichever is most specific wins out
+
+Math slide - week 4 - points per Specificity
+
+ID = 100
+Class = 10
+Element = 1
+
+structure
+
+thinking in blocks and percentages
+The DIV tag -block level (break before and after)
+span is Inline, no newline before or after(no breaks)
+
+<div class="myDiv">Content here</div>
+<span class="large">Content here</span>
+
+When to use Div and span
+
+Box Model for CSS
+
+Margin, border, padding, Content
+Div built to contain block level content
+<div class=box>
+  <p>this content</p>
+</div>
+
+Margin
+Spacing between other things and Border
+Can set top, right, bottom, and left
+.box{
+margin:20px 10% 20px 10%;
+}
+
+CSS Borders
+Used to wrap a visual division around your Content
+Borders can have a color, width, and style. Used in last week lab
+border: etc
+
+Padding
+Space between margin and content, very similar to margin
+padding:

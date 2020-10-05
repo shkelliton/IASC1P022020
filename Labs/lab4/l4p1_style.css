@@ -1,0 +1,23 @@
+body{
+  border-style: solid;
+  border:black, 4px;
+  background-color: blue;
+}
+p{
+  font-family: "Arial", Arial, sans-serif;
+  color: red;
+  border: dashed 1px;
+  border-color: green;
+  padding:1% 1% 1% 1%;
+}
+img{
+  border: dashed 1px;
+  border-color: yellow;
+  padding: 10px;
+}
+#textBox{
+  padding:2px 2px 2px 1%;
+}
+#bigBox{
+  margin:10% 10% 10% 10%;
+}

@@ -1,0 +1,42 @@
+
+#wrap{
+    margin: 0% 2% 0% 2%;
+}
+p{
+  background-color: white;
+}
+div{
+  background-color:white;
+}
+#greenText{
+  color:green;
+  font-size: 10px;
+  text-align: center;
+}
+#dottedPara{
+  text-align: center;
+  border-style: dotted;
+  border-color: purple;
+  padding: 90px 0px 10px 0px;
+  font-size: 12px;
+}
+.orangeText{
+  font-family: serif, 28px;
+  font-size: 30px;
+  color:orange;
+}
+#redText{
+  color:red;
+  font-style: normal;
+  position:relative;
+  bottom: 15px;
+}
+#tinyText{
+  font-size: 5px;
+  color:purple;
+  text-align: right;
+}
+#yellowText{
+  color:yellow;
+  text-transform:uppercase;
+}

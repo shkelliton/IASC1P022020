@@ -1,0 +1,21 @@
+#divGreen{
+  background-color: green;
+}
+#pushRight{
+  padding-left: 2%;
+}
+#borderDot{
+  margin:0 2% 2% 2%;
+  border-style: dotted;
+  border-width: 3px;
+  padding: 2%;
+}
+#text1{
+  color:red;
+}
+#text2{
+  color:darkGreen;
+}
+p{
+  color:maroon;
+}

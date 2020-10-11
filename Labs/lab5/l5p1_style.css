@@ -1,0 +1,28 @@
+h1, p, footer{
+  color:white;
+  margin: 0 0 0 0;
+}
+
+h1{
+  background-color: red;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+p{
+  background-color: green;
+  font-size: 14px;
+  min-height: 300px;
+  padding-top:20px;
+
+}
+
+footer{
+  background-color: blue;
+  font-size: 10px;
+  bottom:20px;
+  padding-top: 10px;
+  min-height: 60px;
+}

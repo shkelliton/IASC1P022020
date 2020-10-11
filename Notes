@@ -148,3 +148,72 @@ border: etc
 Padding
 Space between margin and content, very similar to margin
 padding:
+
+
+WEEK 5
+
+Filenames - Just don't use spaces even though you can, and no special characters
+Filename should describe file
+
+WORKFLOW describes the order of a set of task
+
+Important to have a set workflow to understand how it works
+
+GROUPING
+
+grouping allows you to apply identical variables to multiple classes
+eg
+h1,h2,p{color:green}
+, means or in this sense
+
+
+nesting
+allows you to apply certain variables to certain classes while they are within other classes
+.marked p{color:white}
+Will only allow <p> to be white while inside the custom class .marked
+
+Setting dimensions
+tags can be given specific dimensions using CSS
+TO DO SO WE use the height and width css attributes
+We can use either pixels or percentage
+.bigImage{
+  height:100pc;
+  width:50%
+}
+
+For more flexible height and width declarations you can use the min/maxheight/width attributes
+- min-height, max-height, min-width, max-width
+eg
+.miniHeight{
+  min-height:200px;
+}
+
+POSITIONING
+CSS can be used to structure information
+All page positioning should be done with css, tags such as <center> are depreciated
+
+Fixed position:
+- a fixed element is fixed relative to the visible browser window, not the total page
+- will stay in same spot regardless of scrolling down the page
+e.g. nav points, advertisements
+
+Absolute POSITIONING:
+- positioned relative to entire webpage
+- stays where it is as we scroll
+position:absolute;
+
+RELATIVE POSITIONING
+- Positions the item relative to where it would have been had you not positioned it not relative to the page(???)
+- It will be positioned away from where it should be by default
+-Something left:20px would be 20 pixel away from where it should have been, not 20px away from the total page
+position:relative;
+
+Overlapping elements
+
+if elements are positioned they can be ordered
+that is to say you can set the order that elements will appear if they were to Overlap
+to do this the elements will need a z-index (z-index:5)
+
+Location attributes
+Using top/bottom/left/right
+i.e. top:50px

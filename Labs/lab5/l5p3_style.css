@@ -1,0 +1,29 @@
+p{
+  padding: 0 20% 20% 0%;
+  text-align: left;
+}
+#greenMargin{
+  margin: 0 10% 0 10%;
+  background-color: green;
+}
+
+#blueBox{
+  padding-top: 12px;
+  position:absolute;
+  display:inline-block;
+  background-color: blue;
+  left:10%;
+}
+#redBox{
+  padding-top: 12px;
+  position:absolute;
+  display: inline-block;
+  background-color: red;
+  right:10%;
+}
+#yellowBox{
+  background-color: yellow;
+  position:absolute;
+  margin-top:25%;
+  left:38%;
+}

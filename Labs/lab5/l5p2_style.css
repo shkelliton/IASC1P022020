@@ -8,34 +8,39 @@ h1{
   background-color: red;
   padding-bottom: 30px;
 }
+h2{
+  display: inline-block;
+  padding-bottom: 20px;
+  padding-right:30px;
+}
 p{
   background-color: blue;
   min-height: 600px;
-  font-style: bold;
+  font-size: 25px;
 }
 footer{
   background-color: yellow;
   padding-bottom: 30px;
-  font-size: 15px;
+  font-size: 20px;
   font-style: bold;
 }
 #pinkBlock{
   background-color: pink;
-  margin: 0 0 0 0;
   font-style: bold;
-  z-index: 2;
+  position: absolute;
+  padding-right: 20%;
 }
 #orangeBlock{
-  z-index: 1;
   background-color: orange;
-  margin: 0 0 0 0;
-  display:inline-block;
   font-style: bold;
   position:relative;
-  left:60px;
-  padding-right:448px;
+  left:15%;
+  margin-right: 15%;
 }
 #greenMargin{
   margin: 0 10% 0 10%;
   background-color: green;
+}
+#orangeText{
+  padding-left: 10%;
 }

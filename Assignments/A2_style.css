@@ -1,0 +1,113 @@
+body{
+  background-color: #9bd1db;
+  margin:auto;
+}
+h1,h2,h3,p,li, a{
+  font-family: sans-serif;
+}
+
+h1{
+  color:white;
+  text-align: center;
+  text-transform: uppercase;
+  border-style: dashed;
+  border-width: thick;
+  border-spacing: 5px;
+  padding: 5px;
+  margin:0 20px;
+  border-color: #dba59b;
+}
+
+h2{
+  padding: 10px;
+  background-color: #f2ddda;
+  color: #9bb1db;
+  margin: 5%;
+}
+h3{
+  position: relative;
+  top:70%;
+  margin: 5%;
+  background-color:white;
+  padding: 5px 10px;
+}
+
+p{
+  position:relative;
+  color:white;
+  background-color: black;
+  margin: 5% 5%;
+  padding: 15px;
+}
+
+li{
+  color:white;
+}
+
+a{
+  text-transform: uppercase;
+  color:#8a9ea2
+}
+.liBox{
+  position: relative;
+  display:inline-block;
+  margin: 5% 5% 10% 5%;
+  width: 30%;
+  background-color: #dba59b;
+  border-style: dashed;
+  border-color: #9bd1db;
+  border-width: thick;
+}
+
+.navBar{
+  text-align: center;
+}
+
+.navList{
+  display: inline;
+  background-color: #d1db98;
+  padding:6px;
+
+}
+
+#birdPosi{
+  position: absolute;
+  right:15%;
+  top:35%;
+  padding:3%;
+  max-width: 30%;
+  border-style: dashed;
+  border-color: #dba59b;
+  border-width: thick;
+}
+
+#titleCard{
+  margin: 2% 30%;
+  padding: 30px;
+  background-color: #8a9ea2;
+}
+
+#alignName p{
+  text-align: center;
+  margin: 0 40%;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+
+#redText{
+  color:red;
+}
+
+#helpfulAd{
+  z-index: 1;
+  position: fixed;
+  top:5%;
+  left:5%;
+  max-height: 20%;
+}
+#bottomPic{
+  position: relative;
+  left:30%;
+  max-width: 30%;
+  margin:5%;
+}

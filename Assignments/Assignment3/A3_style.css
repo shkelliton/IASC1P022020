@@ -1,0 +1,51 @@
+#wrapper{
+  width:1000px;
+  height:1000px;
+  background-color:blue;
+  margin: 0 auto;
+}
+h1, h2{
+  padding-left: 60px;
+
+}
+ul{
+  list-style: none;
+}
+#logo{
+  padding:20px;
+  float:left;
+  max-width: 50px;
+  max-height: 50px;
+}
+#trueHeader{
+  margin:auto;
+  background-color: gray;
+}
+#navBar{
+  margin:0 auto;
+  float:left;
+  width:150px;
+  height:auto;
+  background-color: gray;
+  min-height: inherit;
+}
+#content{
+  margin:auto;
+  float:left;
+
+}
+#mapImg{
+  margin:10px;
+  padding:10px;
+  background-color: white;
+  float:center;
+  max-width: 450px;
+}
+#footer{
+  position:absolute;
+  margin:0 auto;
+  bottom: 0;
+  width:inherit;
+  height: 20px;
+
+}

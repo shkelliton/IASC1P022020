@@ -217,3 +217,65 @@ to do this the elements will need a z-index (z-index:5)
 Location attributes
 Using top/bottom/left/right
 i.e. top:50px
+
+WEEK 8 - INTRO TO javascript
+
+HTML is skeleton
+CSS is skin
+JAVASCRIPT is muscle
+
+Javascript is a scripting language
+script that runs as opposed to markup
+interpreted on runtime, not compiled like java or c++
+slower but more flexible
+
+simple or complex
+clock to interaction
+
+link in head, similar to CSS
+
+<script type="text/javascript" src="scripts.js"></script>
+
+HTMl elements can be modified to more easily structure javascript element on the page
+
+document.getElementByID("para")
+- select the html element id "para"
+.innerHTML
+- change the elements html content
+="monkeys";
+- change it to "monkeys"
+
+Javascript, unlike HTML and CSS, will fail completely if a mistake is made instead of trying to interpret what you've written anyway
+Javascript will have problems modifying existing HTML elements before they exist
+Try putting your external Javascript file declaration last(or at least after the item you are planning on modifying)
+
+MODIFYING HTML 2
+Change color
+document.getElementByID("para").style.color = "blue";
+We can change it's size
+document.getElementByID("para").style.fontSize = "1px";
+hide it
+document.getElementByID("para").style.visibility = "hidden";
+
+Comments - //just like java
+/*for multi line
+*/
+
+functions like java
+
+function changeText(){
+  javascript to execute in here
+}
+creates a new function called changeText -brackets required
+does Something
+close the function
+
+modifying content on user input
+html buttons
+Tell our Button
+onclick attribute
+
+variables
+what you'd expect
+
+NO INLINE SCRIPTS SAYS PROF

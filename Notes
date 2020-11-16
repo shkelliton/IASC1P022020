@@ -279,3 +279,40 @@ variables
 what you'd expect
 
 NO INLINE SCRIPTS SAYS PROF
+
+
+
+WEEK 9 - JAVASCRIPT II
+
+Test output to the console
+
+Helpful for debugging
+
+console.log("this will print in secret");
+  console.log(myVariable);
+
+Javascript default dates
+
+Date(); function we can call today's date
+document.getElementByID("para").innerHTML=Date();
+  - calling with no parameters gives everything
+  - mon Oct 17 2011 16:46:18 GMT-0400(Eastern Daylight Time)
+
+  To modify the data information we want we have to pull out selected pieces
+  start by creating a new variable and setting it to today's date
+  - var todayDate= new Date();
+  now pull out the month using the getMonth method
+  - var month = todayDate.getMonth()
+
+  Can also used.getSeconds(), getMinutes(), getHours();, .getDay, getMonth, ]
+
+  Adding words: make into strings, don't just + because it will give number
+
+  String and Loose Type
+  - weak type means - Variables are only given a type (int, string) when evaluated not when defined
+  - Integer variables don't need quotes - string variables do!
+  Number(integer, float), string(string, char), boolean(binary true or false)
+
+  Type Casting
+   var num = 5+4+3 = 12
+   var num = "five"+4+3 = five43

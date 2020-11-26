@@ -1,0 +1,104 @@
+/*done*/
+#wrapper{
+  width:1920px;
+  height:1080px;
+  margin: 0 auto;
+  background-color: grey;
+  z-index: 0;
+}
+/*size is right, needs to scale or go behind 'content' element using z-index
+make a div to make the box and use overflow:invisible...
+woo! she works, sort of! can't scroll with name overtop. */
+#headDiv{
+  position: absolute;
+  width:inherit;
+  height:280px;
+  background-color: red;
+  z-index: 0;
+  overflow:visible;
+}
+#headerIMG{
+  margin-top: 0 auto;
+  z-index: -1;
+  width: inherit;
+  overflow: inherit;
+  position: absolute;
+  z-index: -1;
+}
+/*logo to the left of name*/
+
+/*align center*/
+#navBar{
+  margin-top: 280px;
+  width: inherit;
+  height: 48px;
+  background-color: red;
+}
+/*style like capitalization, color, position over the image - google fonts used */
+#headers{
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  padding-left: 800px;
+  padding-right: 900px;
+}
+h1{
+  text-transform: uppercase;
+  color: red;
+  font-family: 'Oswald', sans-serif;;
+  font-size: 50px;
+}
+/*h2 descript, basically same as h1*/
+h2{
+  text-transform: uppercase;
+  font-style: italic;
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+}
+/*UL to be aligned*/
+ul{
+  text-align: center;
+}
+/* set text style and padding*/
+#shift{
+  padding-right: 0px;
+
+}
+li{
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+/* see if can figure out how to make the box turn blue or something with hover*/
+a{
+  color:inherit;
+  text-decoration: inherit;
+}
+/*box for content*/
+#content{
+
+  padding-top: 40px;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: center;
+  position: absolute;
+  background-color: white;
+  z-index: 10;
+}
+/*for image blocks, needs clickable links and better sizing*/
+.previewIMG{
+  width:270px;
+  height:350px;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 25px;
+  z-index: 9;
+  background-color: blue;
+}

@@ -6,10 +6,10 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	<title>Artwork and Design - Shannon Kelly</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet"/>
 	<link href="pw_style2.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="pw_scripts.js"></script>
 </head>
@@ -21,23 +21,50 @@
       <h1>Shannon Kelly</h1>
       <h2>Sequential Artist</h2>
     </div>
-    <div class = "header">
-      <img src="Images/header.jpg" alt="headerBG"/>
+		<div class = "header">
+      <img id ="headIMG" src="Images/header.jpg" alt="headerBG"/>
     </div>
 
     <div class = "navbar">
       <div id = "navBar">
 				<ul>
-          <li><a href="pwContact.html">Contact</a></li>
+					<!--<li><a href="pwContact.html">Contact</a></li>-->
 					<li><a href="portfolio_website2.html">Home</a></li>
           <li><a href="pwSeq.html">Artwork</a></li>
         </ul>
       </div>
     </div>
-    <div class = "content">
-      <p> this is content probably</p>
-    </div>
-
+		<div class = "content">
+      <h3> SEQUENTIAL ART PRICING</h3>
+				<div class = "galDiv">
+					<img class = "galleryIMG" src="Images\0-6_ln.jpg" alt="Black and white pages start at $30USD" onclick="doZoom(this);infoGather(this);"/>
+				</div>
+				<div class = "galDiv">
+					<img class = "galleryIMG" src="Images\0-6.jpg" alt="Full color pages start at $50 USD" onclick="doZoom(this);infoGather(this);"/>
+				</div>
+				<div class = "galDiv">
+					<img class = "galleryIMG" src="Images\DW P1.jpg" alt="Example work from Dream Ward" onclick="doZoom(this);infoGather(this);"/>
+				</div>
+				<div class = "galDiv">
+					<img class = "galleryIMG" src="Images\1-5.jpg" alt="Example work from paid project 'Pitch'" onclick="doZoom(this);infoGather(this);" />
+				</div>
+			<div class="showcase">
+				<img id="bigIMG" src = "" style="width:100%" alt=""/>
+				<h2 id = "imgDescrip">Click an image to see descriptions</h2>
+			</div>
+		</div>
+		<div class = "footer">
+			<p id = "footerText"> Designed By Shannon Kelly(2020) for IASC 1P02, Brock University</p>
+				<a href="https://twitter.com/Shkelliton">
+					<img id = "twitterSize" src="Images/Socials/Twitter_Logo.png" alt = "Twitter_logo"/>
+				</a>
+				<a href="https://www.instagram.com/shkelliart/?hl=en">
+					<img class = "socials" src="Images/Socials/Instagram_Logo.png" alt = "Instagram_Logo"/>
+				</a>
+				<a href="https://www.facebook.com/shannonkellyartwork">
+					<img class = "socials" src="Images/Socials/Facebook_Logo.png" alt = "Facebook_Logo"/>
+				</a>
+		</div>
 
   <!-- Wrapper close -->
   </div>
